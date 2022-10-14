@@ -55,6 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-image1-github-actions</finalName>
 	</build>
 
 </project>
