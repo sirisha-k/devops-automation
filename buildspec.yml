@@ -13,7 +13,7 @@ phases:
     commands:
     - echo Build completed on `date`
     - mvn package
-    - mv target/springboot-image1-github-actions.war ROOT.war
+    - mv target/devops-jenkins.war ROOT.war
 artifacts:
   files:
   - ROOT.war
