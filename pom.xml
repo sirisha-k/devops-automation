@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.cicd.setup</groupId>
 	<artifactId>devops-jenkins</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>devops-jenkins</name>
 	<description>Demo project for Spring Boot Jenkins Pipeline</description>
@@ -54,8 +55,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
-		</plugins>
-		<finalName>springboot-image1-github-actions</finalName>
+		</plugins>		
 	</build>
 
 </project>
